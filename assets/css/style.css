@@ -1,8 +1,8 @@
 :root {
     /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
-    --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --primary: rgba(91, 11, 94, 0.6);
+    --light: rgb(86, 219, 186);
+    --greyish: rgb(116 121 129 / 80%); 
 }
 
 html, body {
@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+    background-color:rgb(9, 11, 131);
 }
 
 a {
@@ -19,7 +19,8 @@ a {
 }
 
 .custom-resume {
-    background-color:var(--light);
+    background-color:var(purple
+    );
 }
 
 .custom-resume > div {
@@ -46,7 +47,8 @@ a {
 }
 
 .custom-profile > * {
-    background-color: var(--primary);
+    background-color: rainbow
+
 }
 
 .custom-profile > div:last-child span {
@@ -59,6 +61,8 @@ a {
 
 .custom-city {
     color: var(--greyish);
+    border:rgb(86, 219, 186);
+    border-style: ridge;
 }
 
 .custom-title {
@@ -92,3 +96,4 @@ img + p > span {
         flex-basis: 6%;
     }
 }
+/*I changed several of the colors and added a border. with the max-width being set, it won't be wider than 992 px regardless and will be 0.8x the standard font.
